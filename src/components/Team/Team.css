@@ -1,0 +1,13 @@
+.teamStyle{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

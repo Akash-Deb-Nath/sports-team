@@ -1,0 +1,9 @@
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)),url(../../images/Photo/rec-26.png);
+    height: 50vh;
+    text-align: center;
+    padding: 125px;
+  }
+.banner h1{
+    color: white;
+  }
