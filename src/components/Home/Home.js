@@ -18,7 +18,7 @@ const Home = () => {
             <div className="row">
                 <div className="col-4">
                     {
-                        teams.map(team => <Team team={team}></Team>)
+                        teams.map(team => <Team team={team} id={team.teamId}></Team>)
                     }
                 </div>
             </div>
