@@ -31,7 +31,7 @@ const TeamDetails = () => {
                 <img src={team.strTeamBadge} alt="" />
             </div>
             <div className="team-details">
-                <div style={{ width: '80%' }}>
+                <div className="team-data" style={{ width: '80%' }}>
                     {console.log(team)}
                     <h1>{team.strTeam}</h1>
                     <p><FontAwesomeIcon icon={faPodcast} /> Founded: {team.intFormedYear}</p>
