@@ -22,7 +22,7 @@ const TeamDetails = () => {
     if (team.strGender === 'Male') {
         gender = <img style={{ width: '300px' }} src={maleImg} alt="" />
     }
-    else{
+    else if(team.strGender === 'Female'){
         gender = <img style={{ width: '300px' }} src={femaleImg} alt="" />
     }
     return (

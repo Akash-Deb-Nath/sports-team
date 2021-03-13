@@ -15,20 +15,11 @@ const Home = () => {
             <div className='banner'>
                 <h1>Sports Team</h1>
             </div>
-            {/* <div className="row">
+            <div className="row">
                 <div className="col-4">
                     {
                         teams.map(team => <Team team={team}></Team>)
                     }
-                </div>
-            </div> */}
-            <div className="container">
-                <div className="row">
-                    <div className="col-4">
-                        {
-                            teams.map(team => <Team team={team}></Team>)
-                        }
-                    </div>
                 </div>
             </div>
         </div>
